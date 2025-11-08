@@ -1,0 +1,56 @@
+html {
+  font-family: "Inter", sans-serif !important;
+}
+
+.btn-custom {
+  width: 167px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #8EADD5;
+}
+
+/* Custom spacing */
+.pt-8 {
+  padding-top: 97px !important;
+}
+
+.mt-md-120 {
+  margin-top: 120px !important;
+}
+
+/* Responsive adjustments */
+@media (min-width: 992px) {
+  .p-lg-127 {
+    padding-left: 127px !important;
+    padding-right: 127px !important;
+  }
+
+  .fs-lg-64 {
+    font-size: 64px !important;
+  }
+
+  .pe-lg-75 {
+    padding-right: 75px !important;
+  }
+
+  .pe-lg-90 {
+    padding-right: 90px !important;
+  }
+
+  .mt-lg-157 {
+    margin-top: 157px !important;
+  }
+
+  .mt-lg-75 {
+    margin-left: 75px !important;
+    margin-right: 75px !important;
+  }
+}
+
+@media (max-width: 922px) {
+  .logo {
+    width: 70px;
+    height: 24px;
+    object-fit: contain; /* يحافظ على شكل اللوجو */
+  }
+}
