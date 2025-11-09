@@ -17,7 +17,9 @@ html {
 .mt-md-120 {
   margin-top: 120px !important;
 }
-
+.mt-md-88 {
+  margin-top: 88px !important;
+}
 /* Responsive adjustments */
 @media (min-width: 992px) {
   .p-lg-127 {
@@ -27,6 +29,9 @@ html {
 
   .fs-lg-64 {
     font-size: 64px !important;
+  }
+  .fs-lg-48 {
+     font-size: 48px !important;
   }
 
   .pe-lg-75 {
@@ -45,12 +50,19 @@ html {
     margin-left: 75px !important;
     margin-right: 75px !important;
   }
+  .mt-lg-136 {
+    margin-top: 136px !important;
+  }
+.ms-lg-179 {
+  margin-left: 179px !important;
+}
+
 }
 
 @media (max-width: 922px) {
   .logo {
-    width: 70px;
-    height: 24px;
-    object-fit: contain; /* يحافظ على شكل اللوجو */
+    width: 70px !important;
+    height: 24px !important;
+    object-fit: contain !important; /* يحافظ على شكل اللوجو */
   }
 }
