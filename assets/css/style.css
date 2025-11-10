@@ -8,6 +8,12 @@ html {
   border-radius: 8px;
   background-color: #8EADD5;
 }
+.bg-light-color {
+  background-color: #F6F6F6;
+}
+.rounded-20 {
+  border-radius: 20px;
+}
 
 /* Custom spacing */
 .pt-8 {
@@ -56,7 +62,14 @@ html {
 .ms-lg-179 {
   margin-left: 179px !important;
 }
+ /* .pt-38{
+padding-top: 38px;
+ }
+ .mt-40 {
+  margin-top: 40px;
+ } */
 
+ 
 }
 
 @media (max-width: 922px) {
@@ -66,3 +79,16 @@ html {
     object-fit: contain !important; /* يحافظ على شكل اللوجو */
   }
 }
+
+
+
+/* .carousel-indicators [data-bs-target] {
+  background-color: #333;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  background-color: #007bff
+} */
