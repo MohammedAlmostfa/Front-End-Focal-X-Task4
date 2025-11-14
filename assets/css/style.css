@@ -1,30 +1,43 @@
 html {
   font-family: "Inter", sans-serif !important;
 }
-
 .btn-custom {
   width: 167px;
   height: 48px;
   border-radius: 8px;
-  background-color: #8EADD5;
+  background-color: #8eadd5;
 }
 .bg-light-color {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6 !important;
+}
+.bg-aurometalsaurus-color {
+  color: #667085 !important;
 }
 .rounded-20 {
-  border-radius: 20px;
+  border-radius: 20px !important;
 }
 
 /* Custom spacing */
 .pt-8 {
   padding-top: 97px !important;
 }
-
+.mt-lg-136 {
+  margin-top: 1369x;
+}
 .mt-md-120 {
   margin-top: 120px !important;
 }
+.pt-lg-105 {
+  padding-top: 105px !important;
+}
 .mt-md-88 {
   margin-top: 88px !important;
+}
+.mt-136 {
+  margin-top: 136px !important;
+}
+.pt-md-56{
+  padding-top: 56px;
 }
 /* Responsive adjustments */
 @media (min-width: 992px) {
@@ -37,7 +50,7 @@ html {
     font-size: 64px !important;
   }
   .fs-lg-48 {
-     font-size: 48px !important;
+    font-size: 48px !important;
   }
 
   .pe-lg-75 {
@@ -56,21 +69,29 @@ html {
     margin-left: 75px !important;
     margin-right: 75px !important;
   }
-  .mt-lg-136 {
-    margin-top: 136px !important;
+
+  .ms-lg-179 {
+    margin-left: 179px !important;
   }
-.ms-lg-179 {
-  margin-left: 179px !important;
-}
- /* .pt-38{
+
+  .pb-lg-38 {
+    padding-bottom: 38px !important;
+  }
+  /* .pt-38{
 padding-top: 38px;
  }
  .mt-40 {
   margin-top: 40px;
  } */
 
- 
+
+ .px-lg-315 {
+  padding-left: 315px !important;
+  padding-right: 315px !important;
 }
+}
+
+
 
 @media (max-width: 922px) {
   .logo {
@@ -79,8 +100,6 @@ padding-top: 38px;
     object-fit: contain !important; /* يحافظ على شكل اللوجو */
   }
 }
-
-
 
 /* .carousel-indicators [data-bs-target] {
   background-color: #333;
@@ -92,3 +111,5 @@ padding-top: 38px;
 .carousel-indicators .active {
   background-color: #007bff
 } */
+
+
